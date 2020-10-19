@@ -9,6 +9,7 @@
 
     "profiles": {
         "defaults": {
+            "closeOnExit": "always",
             "useAcrylic": true,
             "acrylicOpacity": 0.6,
             "hidden": false,
