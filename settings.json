@@ -3,9 +3,13 @@
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-
+    "tabWidthMode": "compact",
+    "copyFormatting": true,
+    "largePasteWarning": false,
+    "multiLinePasteWarning": false,
+    "schemes": [],
+    "keybindings": [],
     "profiles": {
         "defaults": {
             "closeOnExit": "always",
@@ -46,14 +50,8 @@
             {
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
-                "largePasteWarning": false,
-                "multiLinePasteWarning": false
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
-
-    "schemes": [],
-
-    "keybindings": []
 }
